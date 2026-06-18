@@ -76,7 +76,7 @@ for i in email:
         is_valid = False
         break
 
-    if is_valid:
+if is_valid:
         print("Valid email address")
-    else: 
+else: 
         print ("Invalid email address")
